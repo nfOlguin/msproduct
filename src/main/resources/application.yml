@@ -1,0 +1,18 @@
+#General
+spring:
+  app:    
+    version: 0.0.1
+  profiles:
+    active: default
+  project:
+    name: msproduct
+  application:
+    name: crud-product-falabella
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8217
+  servlet:
+    contextPath: /api/msproduct
